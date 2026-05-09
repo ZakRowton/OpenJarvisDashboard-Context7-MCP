@@ -2,7 +2,7 @@ services:
   context7-mcp:
     build:
       context: .
-      dockerfile: packages/mcp/Dockerfile
+      dockerfile: Dockerfile
     container_name: jarvis-context7-mcp
     restart: unless-stopped
     ports:
